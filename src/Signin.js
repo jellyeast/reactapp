@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.secondary.main,
   },
   form: {
-    width: '100%', // Fix IE 11 issue.
+    width: '100%', 
     marginTop: theme.spacing(1),
   },
   submit: {
@@ -66,7 +66,7 @@ export default function SignIn() {
             required
             fullWidth
             id="email"
-            label="Email Address"
+            label="電子信箱"
             name="email"
             autoComplete="email"
             autoFocus
@@ -77,7 +77,7 @@ export default function SignIn() {
             required
             fullWidth
             name="password"
-            label="Password"
+            label="密碼"
             type="password"
             id="password"
             autoComplete="current-password"
